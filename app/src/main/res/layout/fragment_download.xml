@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".fragments.DownloadFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Animewallpaper"
+            android:text="@string/anime_recommendation"
+            android:textSize="30sp"
+            android:fontFamily="@font/nunito_bold"
+            android:textColor="@color/wallpaperprimary"
+            android:layout_marginStart="20dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/bom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Animewallpaper"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/nunito_bold"
+                android:textStyle="bold"
+                android:text="@string/must_watch"
+                android:textColor="@color/wallpaperprimary"
+                android:textSize="24sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_anime"
+                android:layout_width="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:reverseLayout="false"
+                android:layout_height="wrap_content" >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

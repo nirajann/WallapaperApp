@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragementReplace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavbar" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomNavbar"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bottom_shape"
+        android:baselineAligned="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ic_home"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/homepage" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ic_download"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:background="@drawable/watchlist"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

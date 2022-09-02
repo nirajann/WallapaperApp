@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_title"
+        android:text="@string/Onepiece"
+        android:textStyle="bold"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_marginStart="20dp"
+        android:textSize="39sp"
+        android:textColor="@color/wallpaperprimary"/>
+    <TextView
+        android:layout_below="@+id/cat_title"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/nunito_regular"
+        android:layout_height="wrap_content"
+        android:id="@+id/cat_count"
+        android:text="@string/wallpaperavailable"
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/wallpaperprimary"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rcv_category"
+        android:layout_below="@+id/cat_count"
+        android:layout_marginStart="10dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "608021352959",
+    "project_id": "artwallpaper-61e29",
+    "storage_bucket": "artwallpaper-61e29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608021352959:android:b5d31ec46ffe175a3b17ca",
+        "android_client_info": {
+          "package_name": "com.example.artwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608021352959-t7o8caph03k1b36v9qbh9e3vffb7rffd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0bQh5qs3-kVfc5OinjRbCI6AHnVCEcsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608021352959-t7o8caph03k1b36v9qbh9e3vffb7rffd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
