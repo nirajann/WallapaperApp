@@ -1,21 +1,13 @@
 package com.example.artwallpaper.fragments
 
-import android.app.Activity
-import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Environment
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.core.app.ActivityCompat
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.artwallpaper.Adapter.BomAdapter
-import com.example.artwallpaper.Adapter.animeAdapter
-import com.example.artwallpaper.Adapter.categoryAdapter
-import com.example.artwallpaper.Model.BomModel
+import com.example.artwallpaper.Adapter.DownloadApater
 import com.example.artwallpaper.Model.categoryModel
 import com.example.artwallpaper.databinding.FragmentDownloadBinding
 import com.google.firebase.firestore.FirebaseFirestore
@@ -51,7 +43,7 @@ class DownloadFragment : Fragment() {
             listOfCategory.addAll(data!!)
 
             binding.rcvAnime.layoutManager = GridLayoutManager(requireContext(),2 )
-            binding.rcvAnime.adapter = animeAdapter(requireContext(),listOfCategory)
+            binding.rcvAnime.adapter = DownloadApater(requireContext(),listOfCategory)
         }
 
 

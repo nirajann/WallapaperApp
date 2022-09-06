@@ -19,4 +19,12 @@
     <string name="wallpaperavailable">56 Wallpaper Available</string>
     <string name="anime_recommendation">Anime Recommendation</string>
     <string name="must_watch">Anime To watch</string>
+    <string name="nav_feedback">FeedBack</string>
+    <string name="nav_setting">Settings</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_exit">Exit</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Aboutanime">Description About Anime</string>
+    <string name="season">Season</string>
 </resources>

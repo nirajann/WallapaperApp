@@ -4,20 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/drawable/bottom_shape.xml" value="0.1655" />
+        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_about.xml" value="0.2" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_category.xml" value="0.2" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_main.xml" value="0.136" />
-        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_set_wallpaper.xml" value="0.25" />
+        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_set_wallpaper.xml" value="0.136" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/content_splash_screen.xml" value="0.4" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/fragment_download.xml" value="0.2" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/fragment_download2.xml" value="0.1" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_anime.xml" value="0.20512820512820512" />
+        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_animeimg.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_bestofmonth.xml" value="0.22146739130434784" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_bom.xml" value="0.264" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_cat.xml" value="0.264" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_category.xml" value="0.109375" />
         <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/item_colortone.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/layout/nav_header.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Nirajan/AndroidStudioProjects/ArtWallpaper/app/src/main/res/menu/navigation.xml" value="0.2" />
       </map>
     </option>
   </component>

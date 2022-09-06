@@ -18,13 +18,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="400dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:background="@drawable/artlogo" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/nunito_bold"
             android:textStyle="bold"

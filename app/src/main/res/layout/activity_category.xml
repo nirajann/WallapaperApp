@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".CategoryActivity">
 
     <TextView
@@ -25,7 +26,7 @@
         android:text="@string/wallpaperavailable"
         android:layout_marginStart="20dp"
         android:textSize="20sp"
-        android:textColor="@color/wallpaperprimary"/>
+        android:textColor="@color/cool_green"/>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

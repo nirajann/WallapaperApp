@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="16dp"
+    android:background="#660091EA"
+    android:layout_marginTop="80dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="110dp"
+        android:contentDescription="@string/Onepiece"
+        android:paddingTop="10dp"
+        android:src="@drawable/artlogo"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
